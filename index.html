@@ -7,20 +7,32 @@
     <title>MJ- Frontend developer</title>
 </head>
 <body>
-    <div class="container">
-       
-        <div class="nav">
-            <div class="logo">
-                <a href="#hero">MJ</a></div>
-            <div class="menu">
-                <a href="#about">About</a>
-                <a href="#experiences">Experiences</a>
-                <a href="#service">Service</a>
-                <a href="#projects">Projects</a>
-                <a href="#contact">Contact</a>
+    <header class="header" id="header">
+    <nav class="nav container">
+        <a href="#hero" class="logo">MJ</a>
+
+        <div class="nav-menu" id="nav-menu">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#experiences" class="nav-link">Experiences</a></li>
+                <li class="nav-item"><a href="#service" class="nav-link">Service</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-close" id="nav-close">
+                <span></span>
+                <span></span>
             </div>
         </div>
-    </div>
+
+        <div class="nav-toggle" id="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+</header>
     <section class="hero" id="hero">
         <img class="Bg" src="hero-bg.jpg" alt="">
         <h1>Welcome to<span>My Portfolio</span></h1>
@@ -52,7 +64,7 @@
                     <h3>Process Associate</h3>
                     <span>I-cons Technologies</span>
                     <span>Jun 2023 - May 2025</span>
-                    <p>Developed and maintained responsive web applications using React and Redux. Collaborated with designers to implement user-friendly interfaces and improve overall user experience.</p>
+                    <p> Worked in non-it to develop mobile app using Ai to build a mobile app and web app then Data management, Data Extracting, Web Scarping </p>
                     
                 </div>
                 <div class="box">
@@ -117,7 +129,7 @@
                 <div class="skill-item">
                     <div class="skill-info">
                         <h3>React</h3>
-                        <span class="percent">75%</span>
+                        <span class="percent">55%</span>
                     </div>
                     <div class="skill-progress">
                         <div class="progress-fill" style="width: 75%"></div>
@@ -137,14 +149,14 @@
                 </div>
                 <div class="box">
                     <img src="project-01.png" alt="">
-                    <h3>Falconprotec</h3>
-                    <p>An online store featuring a wide range of products, user authentication, and a shopping cart. Developed using React and Firebase.</p>
+                    <h3>Falconprotech</h3>
+                    <p>Falconprotech is IT/ITES company our valueable client to us this project is ours first project to provide a logo design to web development for end-to-end</p>
                     <a href="https://www.falconprotech.com/" class="btn-2">View Project</a>
                 </div>
                 <div class="box">
                     <img src="project-02.png" alt="">
                     <h3>sreekumaranelectronics</h3>
-                    <p>A blogging platform allowing users to create, edit, and share blog posts. Implemented with Node.js, Express, and MongoDB.</p>
+                    <p>It Was dynamic site developed by Html,css,Js and to more sreekumaranelectronics is our value client for our business</p>
                     <a href="sreekumaranelectronics.in" class="btn-2">View Project</a>
                 </div>
             </div>
@@ -162,8 +174,8 @@
         </div>
     </section>
     <footer>
-        <p>&copy; 2024 Manoj. All rights reserved.</p>
+        <p>&copy; Design and Developed By <span><h2>MJ</h2></span></p>
     </footer> 
-
+    <script src="script.js"></script>
 </body> 
 </html>
