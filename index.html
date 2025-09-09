@@ -42,20 +42,45 @@
         </p>
         <a href="#projects" class="btn">View Projects</a>
     </section>
-    <section class="about"">
-        <div class="content" id="about">
-            <img src="me.png" alt="" class="about-img">
-            <h2>About Me</h2>
-        <p>Hello! I'm Manoj, a passionate frontend developer with a knack for creating stunning and user-friendly web applications. With a strong foundation in HTML, CSS, and JavaScript, I bring designs to life and ensure seamless user experiences.</p>
-        <p>When I'm not coding, you'll find me exploring the latest tech trends, experimenting with new design tools, or indulging in my love for photography.</p>
-        <p>Let's connect and create something amazing together!</p>
-        
-        <div>
-            <a href="#contact" class="btn-1">hire me</a>
+    <section class="about">
+    <div class="about-container">
+        <div class="about-content">
+            <div class="content" id="about">
+                <h2>About Me</h2>
+                <p>Hello! I'm MJ, a passionate Frontend Developer with a knack for creating engaging and user-friendly web applications. With a strong foundation in HTML, CSS, and JavaScript, I specialize in building responsive and dynamic websites that provide seamless user experiences. I love exploring new technologies and continuously improving my skills to stay ahead in the ever-evolving world of web development.</p>
+            </div>
+            <div class="tech-and-hire">
+                <div class="tech-icons">
+                    <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="HTML5">
+                    <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3">
+                    <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="JavaScript">
+                    <img src="https://img.icons8.com/color/48/000000/php.png" alt="PHP">
+                    <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="MySQL">
+                </div>
+                <div class="hire-me-container">
+                    <a href="#contact" class="hire-me-button">
+                        <svg class="rotating-text" viewBox="0 0 150 150">
+                            <path id="circlePath" fill="none" d="M 75, 75 m -60, 0 a 60,60 0 1,1 120,0 a 60,60 0 1,1 -120,0"/>
+                            <text>
+                                <textPath xlink:href="#circlePath">
+                                    • HIRE ME • HIRE ME • HIRE ME
+                                </textPath>
+                            </text>
+                        </svg>
+                    </a>
+                </div>
+            </div>
         </div>
-
-      </div>
-    </section>
+        <div class="about-image-area">
+            <div class="about-image">
+                <img src="me.png" alt="About Me">
+            </div>
+            <div class="github-icon">
+                <a href="https://github.com/Manoj-29-tech" target="_blank"><img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="GitHub"></a>
+            </div>
+        </div>
+    </div>
+</section>
     <section class="Experiences">
         <div class="content" id="experiences">
             <h2>Experiences</h2>
@@ -69,10 +94,9 @@
                 </div>
                 <div class="box">
                     <h3>Freelance Web Developer</h3>
-                    <a href="https://www.instagram.com/codescraft_inc?igsh=bGR6bHNnNzY3Ymh2&utm_source=qr" ><p>@Codes Craft</p></a>
                         <span>Self-Employed</span>
-                    
                     <span>part time</span>
+                    <a href="https://www.instagram.com/codescraft_inc?igsh=bGR6bHNnNzY3Ymh2&utm_source=qr"><h4>@CODESCRAFT</h4></a>
                     <p>Designed wireframes, prototypes, and high-fidelity mockups for various web and mobile applications. Conducted user research and usability testing to refine designs and enhance user satisfaction.</p>
                 </div>
             </div>
@@ -98,47 +122,54 @@
         </div>
     </section>
     <section class="skills">
-        <div class="content" id="skills">
-            <h2>Skills</h2>
-            <div class="skills-container">
-                <div class="skill-item">
-                    <div class="skill-info">
-                        <h3>HTML</h3>
-                        <span class="percent">90%</span>
+    <div class="content" id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skills-column">
+                <h3>Frontend</h3>
+                <div class="skill-card">
+                    <div class="skill-progress-circle" style="--p:90;">
+                        <div class="skill-percent">90%</div>
                     </div>
-                    <div class="skill-progress">
-                        <div class="progress-fill" style="width: 90%"></div>
-                    </div>
+                    <h4>HTML</h4>
                 </div>
-                <div class="skill-item">
-                    <div class="skill-info">
-                        <h3>CSS</h3>
-                        <span class="percent">85%</span>
+                <div class="skill-card">
+                    <div class="skill-progress-circle" style="--p:85;">
+                        <div class="skill-percent">85%</div>
                     </div>
-                    <div class="skill-progress">
-                        <div class="progress-fill" style="width: 85%"></div>
-                    </div>
+                    <h4>CSS</h4>
                 </div>
-                <div class="skill-item">
-                    <div class="skill-info">
-                        <h3>JavaScript</h3>
-                        <span class="percent">80%</span>
+                <div class="skill-card">
+                    <div class="skill-progress-circle" style="--p:80;">
+                        <div class="skill-percent">80%</div>
                     </div>
-                    <div class="skill-progress">
-                        <div class="progress-fill" style="width: 80%"></div>
-                    </div>
+                    <h4>JavaScript</h4>
                 </div>
-                <div class="skill-item">
-                    <div class="skill-info">
-                        <h3>React</h3>
-                        <span class="percent">55%</span>
+            </div>
+            <div class="skills-column">
+                <h3>Backend</h3>
+                <div class="skill-card">
+                    <div class="skill-progress-circle" style="--p:55;">
+                        <div class="skill-percent">55%</div>
                     </div>
-                    <div class="skill-progress">
-                        <div class="progress-fill" style="width: 75%"></div>
+                    <h4>PHP</h4>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-progress-circle" style="--p:60;">
+                        <div class="skill-percent">60%</div>
                     </div>
+                    <h4>MySQL</h4>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-progress-circle" style="--p:70;">
+                        <div class="skill-percent">70%</div>
+                    </div>
+                    <h4>Restful APIs</h4>
+                </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
     <section class="projects">
         <div class="content" id="projects">
             <h2>Projects</h2>
@@ -159,10 +190,35 @@
                     <img src="project-02.png" alt="">
                     <h3>sreekumaranelectronics</h3>
                     <p>It Was dynamic site developed by Html,css,Js and to more sreekumaranelectronics is our value client for our business</p>
-                    <a href="https://sreekumaranelectronics.in/" class="btn-2">View Project</a>
+                    <a href="sreekumaranelectronics.in" class="btn-2">View Project</a>
                 </div>
             </div>
         </div>
+    </section>
+    <section class="certificate">
+        <div class="content" id="certificate">
+            <h2>Certificates</h2>
+            <p>Here are some of the certificates I've earned through my learning journey:</p>
+
+        </div>
+            <div class="bento-grid">
+                 <div class="b-box" style="grid-area: box-1">
+                   <h4>Meta Front-end Course</h4> 
+                     <p>Persuing the Meta Front-End Developer Professional Certificate on Coursera, covering HTML, CSS, JavaScript, React, and more.</p>
+                 </div>
+                 <div class="b-box" style="grid-area: box-2">
+                    <h4>Project management</h4>
+                        <p>Completed Great Learning: Professional Certificate , gaining skills in project planning, execution, and leadership.</p>
+                 </div>
+                 <div class="b-box" style="grid-area: box-3">
+                    <h4>IBM AI-agent and Rag Development</h4>
+                        <p><span>Applied for IBM AI-agent and Rag Development course on Coursera</span>, learning to build AI agents and RAG systems.</p>
+                 </div>
+                 <div class="b-box" style="grid-area: box-4">
+                    <h4>Comming Soon</h4>
+                        <p>More certificates will be added soon as I continue to learn and grow in my field.</p>
+                 </div>
+            </div>
     </section>
     <section class="contact">
         <div class="content" id="contact">
@@ -180,9 +236,4 @@
     </footer> 
     <script src="script.js"></script>
 </body> 
-
 </html>
-
-
-
-
